@@ -1,0 +1,17 @@
+{
+  "name": "more",
+  "version": "1.0.1",
+  "description": "a vuejs component for expand or collapse more text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuejs",
+    "expand",
+    "collapse",
+    "component"
+  ],
+  "author": "lucefer",
+  "license": "MIT"
+}
