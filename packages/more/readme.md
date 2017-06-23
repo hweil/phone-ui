@@ -1,7 +1,8 @@
 # phone-more 组件
 基于vue2.0的【展开、收起】组件
 为了更好的实现多文本能够按指定行数显示，并通过配置两个按钮进行展开与折叠。
-
+### 效果
+![](https://lucefer.github.io/phone-ui/images/more.png)
 ### 安装
 ```
 npm install -D phone-more
