@@ -52,6 +52,9 @@
       appearance: none;
       height: 41px;
       display: block;
+      border-radius: 4px;
+      border:0;
+      outline: none;
 
       &:after{
         background-color: #000;
@@ -69,7 +72,14 @@
       @modifier danger{
         color: red;
       }
-
+      @modifier small{
+        display: inline-block;
+        padding: 0 12px;
+      }
+      @modifier normal{
+        display: inline-block;
+        padding: 0 12px;
+      }
       @modifier large {
         display: block;
         width: 100%;

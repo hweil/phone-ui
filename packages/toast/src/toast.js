@@ -10,7 +10,7 @@ let getAnInstance = () => {
     return instance
   }
   return new ToastConstructor({
-    el: document.createElement('div')
+    el: document.createElement('section')
   })
 }
 

@@ -16,6 +16,9 @@
 </template>
 
 <style>
+/*
+test
+ */
   .page-demo .nav{
       display: inline-block;
       margin-right: 10px;

@@ -19,6 +19,7 @@
     "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
     "eslint-config-elemefe": "^0.3.0",
+    "eslint-config-phoneui": "^1.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^2.0.1",
     "extract-text-webpack-plugin": "^2.1.2",

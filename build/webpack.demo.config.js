@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const autoprefixer = require('autoprefixer')
 const px2rem = require('postcss-px2rem')
 
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlwebpackPlugin = require('html-webpack-plugin')
 
 let entry = {};
@@ -26,10 +27,10 @@ module.exports = {
         'bundle': path.resolve(ROOT, './demo/index.js')
     },
     output: {
-        path: path.resolve(ROOT, './demo'),
-        filename: './dist/[name].js'
+        path: path.resolve(ROOT, './demo/dist'),
+        filename: '[name].js'
     },
-    plugins: [htmlplugin],
+    plugins: [htmlplugin,new ExtractTextPlugin("style.css")],
     devServer: {
         port: 10000,
         host: '127.0.0.1',
@@ -62,12 +63,9 @@ module.exports = {
                 use: [{
                     loader: 'vue-loader',
                     options: {
-                        postcss: [require('postcss-position'), require('postcss-cssnext')(),require('postcss-bem')(),require('postcss-short')({'font-size': {
-    prefix: 'x'
-  },
-  'position': {
-    disable: false
-  }})]
+                        postcss: [require('postcss-bem')(),require('postcss-nested')(),require('postcss-cssnext')(),require('postcss-short'), require('postcss-title')(),require('postcss-position')()
+                      ],
+                      extractCSS: true
                     }
                 }],
             },

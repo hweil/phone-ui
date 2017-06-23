@@ -11,6 +11,11 @@
         "path": "/toast",
         "name": "Toast",
         "icon": "toast"
+      },
+      {
+        "path": "/more",
+        "name": "More",
+        "icon": "more"
       }
     ]
   }

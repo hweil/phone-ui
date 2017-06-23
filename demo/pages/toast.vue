@@ -14,7 +14,7 @@
     @component toast {
       @descendent wrapper {
         padding: 0 20px;
-        position: absolute 50% 0 0 0 ;
+        position: absolute 50% * * *;
         width: 100%;
         transform: translateY(-50%);
         button:not(:last-child) {
