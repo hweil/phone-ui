@@ -1,6 +1,6 @@
 {
   "name": "phone-more",
-  "version": "1.0.3-0",
+  "version": "1.0.4-0",
   "description": "a vuejs component for expand or collapse more text",
   "main": "index.js",
   "scripts": {

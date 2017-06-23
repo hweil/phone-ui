@@ -9,7 +9,8 @@
     props: {
       text: String,
       line: {
-        type: Number
+        type: Number,
+        default: 2
       },
       ellipsis: {
         type: String,
@@ -78,7 +79,7 @@
         this.$refs.more.style.display = 'inline-block'
         this.$refs.ellipsis.style.display = 'inline-block'
       }
-      
+
       let style = getComputedStyle(this.$refs.container, null)
       let lineHeight = parseFloat(style['lineHeight'].replace('px', ''))
 
