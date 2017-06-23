@@ -63,7 +63,7 @@ module.exports = {
                         loader: 'style-loader'
                     },
                     {
-                        loader: 'css-loader?modules'
+                        loader: 'css-loader'
                     },
                     {
                         loader: 'postcss-loader'

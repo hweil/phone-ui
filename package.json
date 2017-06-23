@@ -33,10 +33,12 @@
     "postcss-px2rem": "^0.3.0",
     "postcss-salad": "^2.0.1",
     "postcss-short": "^4.1.0",
+    "postcss-title": "^1.0.0",
     "style-loader": "^0.18.2",
     "vue": "^2.3.4",
     "vue-loader": "^12.0.0",
     "vue-router": "^2.5.3",
+    "vue-template-compiler": "^2.3.4",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   }
