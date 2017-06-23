@@ -10,5 +10,5 @@
   "license": "MIT",
   "private": true,
   "homepage": "https://github.com/lucefer/phone-ui",
-  "repository": "https://github.com/lucefer/phone-ui/tree/master/packages/phone-more"
+  "repository": "https://github.com/lucefer/phone-ui/tree/master/packages/phone-button"
 }

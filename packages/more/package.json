@@ -13,5 +13,7 @@
     "component"
   ],
   "author": "lucefer",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/lucefer/phone-ui",
+  "repository": "https://github.com/lucefer/phone-ui/tree/master/packages/phone-more"
 }
