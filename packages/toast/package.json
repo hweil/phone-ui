@@ -10,5 +10,5 @@
   "license": "ISC",
   "private": true,
   "homepage": "https://github.com/lucefer/phone-ui",
-  "repository": "https://github.com/lucefer/phone-ui/tree/master/packages/phone-toast"
+  "repository": "https://github.com/lucefer/phone-ui/tree/master/packages/toast"
 }
