@@ -1,6 +1,6 @@
 {
   "name": "phone-button",
-  "version": "1.0.2-0",
+  "version": "1.0.3-0",
   "description": "vue  button 组件",
   "main": "index.js",
   "scripts": {
